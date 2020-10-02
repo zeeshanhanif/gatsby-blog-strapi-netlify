@@ -17,14 +17,7 @@ const Home = ()=>  {
                         Title
                         PublishedDate(formatString: "DD MMMM YYYY")
                         Excerpt
-                        FeaturedImage {
-                          id
-                          childImageSharp {
-                            fluid {
-                                ...GatsbyImageSharpFluid
-                            }
-                          }
-                        }
+                        
                       }
                     }
                 }
@@ -50,12 +43,12 @@ const Home = ()=>  {
                                     <div className="meta">
                                         <span>Posted on {edge.node.PublishedDate}</span>
                                     </div>
-                                    {
+                                    {/*
                                         edge.node.FeaturedImage && (
                                             <Img className="featured" fluid={edge.node.FeaturedImage.childImageSharp.fluid}
                                                 alt={edge.node.Title} />
                                         )
-                                    }
+                                        */}
                                     <p className="excerpt">
                                         {edge.node.Excerpt}
                                     </p>

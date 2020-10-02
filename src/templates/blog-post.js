@@ -9,14 +9,7 @@ export const query = graphql`
         strapiBlog(Slug: {eq: $slug}) {
             Title
             PublishedDate(formatString: "DD MMMM YYYY")
-            FeaturedImage {
-                id
-                childImageSharp {
-                    fluid {
-                        ...GatsbyImageSharpFluid
-                    }
-                }
-            }
+            
             body
         }
     }
@@ -33,7 +26,8 @@ const BlogPost = (props) => {
                 <span className="meta">
                     Post on {props.data.strapiBlog.PublishedDate}
                 </span>
-                {
+
+                {/*
                     props.data.strapiBlog.FeaturedImage && (
                         <Img 
                             className="featured"
@@ -41,7 +35,7 @@ const BlogPost = (props) => {
                             alt={props.data.strapiBlog.Title}
                         />
                     )
-                }
+                    */}
                 <br/>
                 <div>
                     {props.data.strapiBlog.body}

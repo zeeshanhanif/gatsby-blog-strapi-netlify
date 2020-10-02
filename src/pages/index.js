@@ -17,14 +17,7 @@ const Home = ()=>  {
                         Title
                         PublishedDate(formatString: "DD MMMM YYYY")
                         Excerpt
-                        FeaturedImage {
-                          id
-                          childImageSharp {
-                            fluid {
-                                ...GatsbyImageSharpFluid
-                            }
-                          }
-                        }
+                        
                       }
                     }
                 }

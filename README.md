@@ -1,6 +1,13 @@
 # Gatsby Blog Site
 
-Blog Site in Gatsby with dynamic page generation of each post on build time. Integrated with netlify and auto build on commit plus integrated with contentful so as changes will be published in contentful it will trigger build on netlify
+Implemented with Strapi Headless CMS 
+Strapi CMS Deployed on Heroku and Database is on Mongodb Atlas
+Blog Site in Gatsby with dynamic page generation of each post on build time. 
+Blog site deployed on netlify 
+
+[Strapi Headless CMS URL](https://strapi-blogsite-admin.herokuapp.com/admin)
+
+Integrated with netlify and auto build on commit plus integrated with contentful so as changes will be published in contentful it will trigger build on netlify
 
 [Guid to integrate git repo with netlify to auto build on commit](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
 

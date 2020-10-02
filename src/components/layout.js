@@ -5,7 +5,7 @@ import Header from './header'
 const Layout = ({children}) => {
     return (
         <div>
-            <Header siteTitle="Gatsby Blogs with Strapi Admin Deployed on Heroku with Mongodb Atlas" />
+            <Header siteTitle="Gatsby Blogs with Strapi Headless CMS Deployed on Heroku with Mongodb Atlas" />
             <div
                 style={{
                 margin: `0 auto`,

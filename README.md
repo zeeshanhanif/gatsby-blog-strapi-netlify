@@ -1,19 +1,28 @@
 # Gatsby Blog Site
 
-Implemented with Strapi Headless CMS 
-Strapi CMS Deployed on Heroku and Database is on Mongodb Atlas
-Blog Site in Gatsby with dynamic page generation of each post on build time. 
-Blog site deployed on netlify 
+Deployed URL: https://strapi-gatsby-blogsite.netlify.app/
+
+Implemented with Strapi Headless CMS. Strapi CMS Deployed on Heroku and Database is on Mongodb Atlas. 
+
+Blog Site in Gatsby with dynamic page generation of each post on build time and deployed on netlify. 
+
+Integrated with netlify and auto build on commit plus integrated with [Strapi](https://strapi.io/) so as changes will be published in strapi it will trigger build on netlify
 
 [Strapi Headless CMS URL](https://strapi-blogsite-admin.herokuapp.com/admin)
 
-Integrated with netlify and auto build on commit plus integrated with contentful so as changes will be published in contentful it will trigger build on netlify
+[Strapi Headless CMS Code](https://github.com/zeeshanhanif/strapi-blogsite-admin)
 
 [Guid to integrate git repo with netlify to auto build on commit](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
 
-[Trigger netlify build on changes in contentful](https://www.contentful.com/developers/docs/tutorials/general/automate-site-builds-with-webhooks) 
+[Strapi Quick Start Guide](https://strapi.io/documentation/v3.x/getting-started/quick-start.html)
 
-Deployed URL: https://quizzical-shannon-7cc5d5.netlify.app/
+[Strapi Tutorial](https://strapi.io/documentation/3.0.0-beta.x/getting-started/quick-start-tutorial.html)
+
+[Building a Static Blog using Gatsby and Strapi](https://strapi.io/blog/building-a-static-website-using-gatsby-and-strapi)
+
+[Strapi CMS Deployment on Heroku](https://strapi.io/documentation/3.0.0-beta.x/deployment/heroku.html)
+
+[Strapi CMS Database Setup](https://strapi.io/documentation/3.0.0-beta.x/guides/databases.html)
 
 
 
